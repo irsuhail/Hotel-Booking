@@ -4,6 +4,7 @@ import {
   createBooking,
   getHotelBookings,
   getUserBookings,
+  stripePayment,
 } from "../controllers/bookingController.js";
 import { protect } from "../middleware/authMiddleware.js";
 
@@ -20,5 +21,7 @@ bookingRouter.get("/user", protect, getUserBookings);
 
 // Get all bookings for hotels owned by the logged-in user
 bookingRouter.get("/hotel", protect, getHotelBookings);
+
+bookingRouter.post('/stripe-payment',protect,stripePayment);
 
 export default bookingRouter;
