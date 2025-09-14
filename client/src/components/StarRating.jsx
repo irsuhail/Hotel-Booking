@@ -1,35 +1,21 @@
-<<<<<<< HEAD
-import { assets } from '../assets/assets'
+import React from 'react';
+import { assets } from '../assets/assets';
 
 const StarRating = ({ rating = 4 }) => {
-
-    return (
-        <>
-            {Array(5).fill('').map((_, index) => (
-                <img key={index} alt='star-icon'
-                    className='w-4.5 h-4.5' src={rating > index ? assets.starIconFilled : assets.starIconOutlined} />
-            ))}
-        </>
-    )
-}
-
-export default StarRating
-=======
-import React from 'react'
-import { assets } from '../assets/assets'
-
-const StarRating = ({rating=4}) => {
   return (
-   <>
-     {Array(5).fill('').map((_, index) => (
-         <img src={rating>index ? assets.starIconFilled :
-            assets.starIconOutlined}   alt="atar-icon" className='w-4.5 h-4.5'/>
-        
-     ))}
-   
-   </>
-  )
-}
+    <>
+      {Array(5)
+        .fill('')
+        .map((_, index) => (
+          <img
+            key={index}
+            src={rating > index ? assets.starIconFilled : assets.starIconOutlined}
+            alt="star-icon"
+            className="w-4.5 h-4.5"
+          />
+        ))}
+    </>
+  );
+};
 
-export default StarRating
->>>>>>> d07792d39304ee2987ae2083b0117e9192edd37f
+export default StarRating;

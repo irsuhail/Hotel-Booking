@@ -1,35 +1,4 @@
-<<<<<<< HEAD
-import React, { useEffect } from 'react'
-import Navbar from '../../components/hotelOwner/Navbar'
-import Sidebar from '../../components/hotelOwner/Sidebar'
-import { Outlet } from 'react-router-dom'
-import { useAppContext } from '../../context/AppContext'
 
-const Layout = () => {
-
-    const { isOwner, navigate } = useAppContext()
-
-    useEffect(() => {
-        if (!isOwner) {
-            navigate('/')
-        }
-    }, [isOwner])
-
-    return (
-        <div className='flex flex-col h-screen'>
-            <Navbar />
-            <div className='flex h-full'>
-                <Sidebar />
-                <div className='flex-1 p-4 pt-10 md:px-10 h-full'>
-                    <Outlet />
-                </div>
-            </div>
-        </div>
-    )
-}
-
-export default Layout
-=======
 import React from 'react'
 import Navbar from '../../components/hotelOwner/Navbar'
 import Sidebar from '../../components/hotelOwner/Sidebar'
@@ -51,4 +20,4 @@ const Layout = () => {
 }
 
 export default Layout
->>>>>>> d07792d39304ee2987ae2083b0117e9192edd37f
+
