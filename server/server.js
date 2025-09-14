@@ -13,6 +13,10 @@ import bookingRouter from "./routes/bookingRoutes.js";
 connectDB()
 connectCloudinary();
 
+
+connectDB()
+
+
 const app=express()
 app.use(cors()) //Enable Cross-Origin Resource Sharing
 
@@ -24,12 +28,16 @@ app.use(clerkMiddleware())
 app.use("/api/clerk",clerkWebhooks);
 
 
+
 app.get('/',(req,res)=>res.send("API is working fine"))
 app.use('/api/user',userRouter)
 app.use('/api/hotels',hotelRouter)
 app.use('/api/rooms',roomRouter)
 app.use('/api/bookings',bookingRouter)
 
+
+
+app.get('/',(req,res)=>res.send("API is working fine"))
 
 
 const PORT=process.env.PORT || 3000;

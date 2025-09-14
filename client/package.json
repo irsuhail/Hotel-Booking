@@ -12,10 +12,15 @@
   "dependencies": {
     "@clerk/clerk-react": "^5.46.2",
     "@tailwindcss/vite": "^4.1.13",
+<<<<<<< HEAD
     "axios": "^1.12.1",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-hot-toast": "^2.6.0",
+=======
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+>>>>>>> d07792d39304ee2987ae2083b0117e9192edd37f
     "react-router-dom": "^7.8.2",
     "tailwindcss": "^4.1.13"
   },
