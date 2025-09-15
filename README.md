@@ -1,6 +1,6 @@
 # QuickStay - Modern Full-Stack Booking Platform
 
-**Deployed App:** [Visit QuickStay](https://quickstay-theta-two.vercel.app/)
+**Deployed App:** (https://quickstay-theta-two.vercel.app/)
 
 QuickStay is a modern, feature-rich **full-stack platform** that allows users to discover, book, and manage stays seamlessly through a beautiful and intuitive interface.
 
@@ -8,16 +8,14 @@ QuickStay is a modern, feature-rich **full-stack platform** that allows users to
 
 ## 🖥️ Screenshots
 
-**Dashboard Page**  
+**Hero Page**  
 
-![Hero Image](assets/hero-image.png)
+![Hero Image](assets/heroImage.png)
+
+**Dasboard Page**
+![Dashboard Image](assets/exclusiveOfferCardImg1.png)
 
 
-**Create Booking Page**  
-![Create Screenshot](Screenshots/create.png)
-
-**Leaderboard / Analytics Page**  
-![Leaderboard Screenshot](Screenshots/leaderboard.png)
 
 ---
 
@@ -50,5 +48,19 @@ QuickStay is a modern, feature-rich **full-stack platform** that allows users to
 
 1. Clone the repository:
 ```bash
-git clone 
+git clone https://github.com/irsuhail/Hotel-Booking.git
 cd QuickStay
+
+**Frontend Setup**
+cd client
+npm install
+npm run dev
+
+**Backend Setup**
+cd server
+npm install
+npm start
+
+
+
+
