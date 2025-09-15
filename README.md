@@ -1,6 +1,6 @@
 # QuickStay - Modern Full-Stack Booking Platform
 
-**Deployed App:** [Visit QuickStay]()
+**Deployed App:** [Visit QuickStay](https://quickstay-theta-two.vercel.app/)
 
 QuickStay is a modern, feature-rich **full-stack platform** that allows users to discover, book, and manage stays seamlessly through a beautiful and intuitive interface.
 
@@ -9,7 +9,9 @@ QuickStay is a modern, feature-rich **full-stack platform** that allows users to
 ## 🖥️ Screenshots
 
 **Dashboard Page**  
-![Dashboard Screenshot](Screenshots/dashboard.png)
+
+![Hero Image](assets/hero-image.png)
+
 
 **Create Booking Page**  
 ![Create Screenshot](Screenshots/create.png)
