@@ -4,20 +4,7 @@
 
 QuickStay is a modern, feature-rich **full-stack platform** that allows users to discover, book, and manage stays seamlessly through a beautiful and intuitive interface.
 
----
 
-## 🖥️ Screenshots
-
-**Hero Page**  
-
-![Hero Image](assets/heroImage.png)
-
-**Dasboard Page**
-![Dashboard Image](assets/exclusiveOfferCardImg1.png)
-
-
-
----
 
 ## 🌟 Features
 
